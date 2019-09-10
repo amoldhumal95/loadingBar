@@ -1,0 +1,21 @@
+
+#bar{
+    background-color:rgb(222,222,222);
+    width:100%;
+    height:20px;
+    text-align:center ;
+}
+#child{
+   width:0%; 
+   height:20px;
+   opacity:1;
+   background-color:tomato;
+   animation-name:colc;
+   animation-duration:10s;
+   animation-iteration-count:1;
+}
+@keyframes colc{
+    0%{background-color:tomato;width:0%;}
+    50%{background-color:dodgerblue;width:50%;}
+    100%{background-color:tomato;width:100%;}
+}
